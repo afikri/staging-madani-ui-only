@@ -1,0 +1,14 @@
+[
+    {
+      "id": 1,
+      "username": "Madani User",
+      "email": "user1@madaniberkelanjutan.id",
+      "password": "madaniuser1"
+    },
+    {
+      "id": 2,
+      "username": "Another Madani User",
+      "email": "user2@madaniberkelanjutan.id",
+      "password": "madaniuser2"
+    }
+  ]
