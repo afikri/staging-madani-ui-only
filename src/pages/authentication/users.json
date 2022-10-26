@@ -1,13 +1,13 @@
 [
     {
       "id": 1,
-      "username": "Madani User",
+      "username": "Anggalia Putri",
       "email": "user1@madaniberkelanjutan.id",
       "password": "madaniuser1"
     },
     {
       "id": 2,
-      "username": "Another Madani User",
+      "username": "Giorgio Budi",
       "email": "user2@madaniberkelanjutan.id",
       "password": "madaniuser2"
     }
