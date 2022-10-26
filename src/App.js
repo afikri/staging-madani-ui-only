@@ -1,13 +1,14 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
-// import { Dashboard, External, Internal, Literature, Login, Press, Publication, Register, Spatial } from './pages'
-import { Dashboard, External, Internal, Literature, FakeLogin, Press, Publication, Register, Spatial } from './pages'
+import { 
+  Dashboard, 
+  Document, 
+  External, Internal, Literature, Login, Press, Publication, Register, Spatial, Training } from './pages'
 const App = () => {
   return (
     <div>
       <Routes>
-        {/* <Route path='/' element={<Login />} /> */}
-        <Route path='/' element={<FakeLogin />} />
+        <Route path='/' element={<Login />} />
         <Route path='register' element={<Register />} />
         <Route path='dashboard' element={<Dashboard />} />
         <Route path='external' element={<External />} />
@@ -17,6 +18,9 @@ const App = () => {
         <Route path='press' element={<Press />} />
         <Route path='publication' element={<Publication />} />
         <Route path='spatial' element={<Spatial />} />
+
+        <Route path='training' element={<Training />} />
+        <Route path='document' element={<Document />} />
       </Routes>
     </div>
   )
