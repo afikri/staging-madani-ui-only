@@ -9,7 +9,7 @@ import Spatial from './dashboard/Spatial'
 import Document from './dashboard/Document'
 import Training from './dashboard/Training'
 
-import Login from './authentication/Login'
+import FakeLogin from './authentication/FakeLogin'
 import Register from './authentication/Register'
 
-export { Dashboard, Document, External, Internal, Literature, Login, Register, Press, Publication, Spatial, Training }
+export { Dashboard, Document, External, Internal, Literature, FakeLogin, Register, Press, Publication, Spatial, Training }
