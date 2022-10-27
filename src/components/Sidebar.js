@@ -9,7 +9,7 @@ const Sidebar = () => {
         <li className="nav-item nav-category">Data</li>
 
         <li className="nav-item">
-          <NavLink to='' className="nav-link" data-bs-toggle="collapse" aria-expanded="false"
+          <NavLink to='/dashboard' className="nav-link" data-bs-toggle="collapse" aria-expanded="false"
             aria-controls="form-elements">
             <i className="menu-icon mdi mdi-card-text-outline"></i>
             <span className="menu-title">Data Tabular</span>

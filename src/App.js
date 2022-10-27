@@ -3,12 +3,12 @@ import { Route, Routes } from 'react-router-dom';
 import { 
   Dashboard, 
   Document, 
-  External, Internal, Literature, Login, Press, Publication, Register, Spatial, Training } from './pages'
+  External, Internal, Literature, FakeLogin, Press, Publication, Register, Spatial, Training } from './pages'
 const App = () => {
   return (
     <div>
       <Routes>
-        <Route path='/' element={<Login />} />
+        <Route path='/' element={<FakeLogin />} />
         <Route path='register' element={<Register />} />
         <Route path='dashboard' element={<Dashboard />} />
         <Route path='external' element={<External />} />

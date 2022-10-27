@@ -48,13 +48,13 @@ const Literature = () => {
                               <div className="card card-rounded">
                                 <div className="card-body">
                                   <div className="table-responsive  mt-1">
-                                    <table className="table select-table">
+                                    <table className="table">
                                       <thead>
                                         <tr>
                                           <th>No</th>
                                           <th>Kategori Data Tabular</th>
                                           <th>Tags</th>
-                                          <th  style={{tableLayout:"fixed", width:"80%"}}>Nama File</th>
+                                          <th>Nama File</th>
                                           <th>Isi Dokumen</th>
                                         </tr>
                                       </thead>
