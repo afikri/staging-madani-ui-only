@@ -48,7 +48,7 @@ const Dashboard = () => {
                               <div className="card card-rounded">
                                 <div className="card-body">
                                   <div className="table-responsive  mt-1">
-                                    <table className="table" style={{backgroundColor:"yellow"}}>
+                                    <table className="table">
                                       <thead>
                                         <tr>
                                           <th>No</th>
