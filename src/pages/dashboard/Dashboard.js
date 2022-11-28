@@ -63,9 +63,9 @@ const Dashboard = () => {
                                           <tr>
                                             <td>{val.id}</td>
                                             <td>
-                                              <div className="d-flex ">
+                                              <div>
                                                 <div>
-                                                  <h6>{val.category}</h6>
+                                                  <p>{val.category}</p>
                                                 </div>
                                               </div>
                                             </td>
@@ -75,8 +75,8 @@ const Dashboard = () => {
                                             <td>
                                               <div>
                                                 <div
-                                                  className="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
-                                                  <p className="text-success">{val.file_name}</p>
+                                                  className="mb-1 max-width-progress-wrap">
+                                                  <p className="text-normal">{val.file_name}</p>
                                                 </div>
                                               </div>
                                             </td>

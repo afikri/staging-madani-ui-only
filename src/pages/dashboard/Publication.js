@@ -48,13 +48,13 @@ const Publication = () => {
                               <div className="card card-rounded">
                                 <div className="card-body">
                                   <div className="table-responsive  mt-1">
-                                    <table className="table">
-                                      <thead>
+                                    <table className="table" style={{width:"100%"}}>
+                                      <thead  style={{whiteSpace: 'pre-wrap', overflowWrap: 'break-word'}}>
                                         <tr>
                                           <th>No</th>
                                           <th>Kategori</th>
                                           <th>Tags</th>
-                                          <th>Nama File</th>
+                                          <th style={{ backgroundColor: "green"}}>Nama File</th>
                                           <th>Sumber File/Penulis</th>
                                           <th>Tahun</th>
                                           <th>Link Terkait</th>
@@ -66,9 +66,9 @@ const Publication = () => {
                                           <tr>
                                             <td>{val.id}</td>
                                             <td>
-                                              <div className="d-flex ">
+                                              <div>
                                                 <div>
-                                                  <h6>{val.category}</h6>
+                                                  <p>{val.category}</p>
                                                 </div>
                                               </div>
                                             </td>

@@ -68,20 +68,19 @@ const External = () => {
                                           <tr>
                                             <td>{val.id}</td>
                                             <td>
-                                              <div className="d-flex ">
+                                              <div>
                                                 <div>
-                                                  <h6>{val.category}</h6>
+                                                  <p>{val.category}</p>
                                                 </div>
                                               </div>
                                             </td>
                                             <td>
-                                              <h6>{val.tags}</h6>
+                                              <p>{val.tags}</p>
                                             </td>
                                             <td>
                                               <div>
-                                                <div
-                                                  className="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
-                                                  <p className="text-success">{val.date}</p>
+                                                <div>
+                                                  <p>{val.date}</p>
                                                 </div>
                                               </div>
                                             </td>
@@ -95,7 +94,7 @@ const External = () => {
                                               {val.key_res}
                                             </td>
                                             <td>
-                                              <h6><a href={val.links}>Link</a></h6>
+                                              <p><a href={val.links}>Link</a></p>
                                             </td>
                                             <td>
                                               {val.participant}

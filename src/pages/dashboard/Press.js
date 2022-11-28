@@ -63,9 +63,9 @@ const Press = () => {
                                           <tr>
                                             <td>{val.id}</td>
                                             <td>
-                                              <div className="d-flex ">
+                                              <div>
                                                 <div>
-                                                  <h6>{val.category}</h6>
+                                                  <p>{val.category}</p>
                                                 </div>
                                               </div>
                                             </td>
@@ -74,9 +74,8 @@ const Press = () => {
                                             </td>
                                             <td>
                                               <div>
-                                                <div
-                                                  className="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
-                                                  <p className="text-success">{val.file_name}</p>
+                                                <div>
+                                                  <p>{val.file_name}</p>
                                                 </div>
                                               </div>
                                             </td>

@@ -71,42 +71,42 @@ const Internal = () => {
                                           <tr>
                                             <td>{val.id}</td>
                                             <td>
-                                              <div className="d-flex ">
+                                              <div>
                                                 <div>
-                                                  <h6>{val.category}</h6>
+                                                  <p>{val.category}</p>
                                                 </div>
                                               </div>
                                             </td>
 
                                             <td>
-                                              <h6>{val.tags}</h6>
+                                              <p>{val.tags}</p>
                                             </td>
 
                                             <td>
-                                              <h6>{val.date}</h6>
+                                              <p>{val.date}</p>
                                             </td>
 
                                             <td>
-                                              <h6>{val.activity}</h6>
+                                              <p>{val.activity}</p>
                                             </td>
 
                                             <td>
-                                              <h6>{val.organizer}</h6>
+                                              <p>{val.organizer}</p>
                                             </td>
 
                                             <td>
-                                              <h6>{val.target}</h6>
+                                              <p>{val.target}</p>
                                             </td>
 
                                             <td>
-                                              <h6>{val.participant}</h6>
+                                              <p>{val.participant}</p>
                                             </td>
 
                                             <td>
-                                              <h6>{val.objective}</h6>
+                                              <p>{val.objective}</p>
                                             </td>
                                             <td>
-                                              <h6><a href={val.links}>Link</a></h6>
+                                              <p><a href={val.links}>Link</a></p>
                                             </td>
 
                                             <td>
